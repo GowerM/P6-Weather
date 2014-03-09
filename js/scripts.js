@@ -11,13 +11,14 @@ $(document).ready(function(){
     success: function(weather) {
       
       // Get & Store Weather Data
-      // html = '<h2><i class="icon-' + weather.code+'"></i> ' + weather.temp +'&deg;' + weather.units.temp+'</h2>';
+      html = '<h2><i class="icon-' + weather.code+'"></i> ' + weather.temp +'&deg;' + weather.units.temp+'</h2>';
+      
       var temp, tomHi, tomLo, cityAndState; 
 
-      temp = weather.temp + '<span> f</span>';
+      temp = weather.temp + '<span> F</span>';
       tomHi = weather.tomorrow.high;
       tomLo = weather.tomorrow.low;
-      cityAndState = weather.city + ' , ' + weather.region;
+      cityAndState = weather.city + ', ' + weather.region;
 
       console.log(cityAndState);
 
@@ -39,4 +40,4 @@ $(document).ready(function(){
 
   console.log('Page Loaded. Lets Do this!');
 
-}); 
+});
