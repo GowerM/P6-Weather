@@ -103,9 +103,7 @@ button {
 	margin-left: 20px;
 }
 
-img {
-	width: 100%;
-}
+
 
 /*=====================
 		Fonts
@@ -113,5 +111,9 @@ img {
 h1 {
 	font-size: 7em;
 	margin-top: -5px;
+}
+
+li .geo {
+	font-size: 5em;
 }
 
