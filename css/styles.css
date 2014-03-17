@@ -99,6 +99,10 @@ button {
 	margin: 0 auto;
 }
 
+.getGeolocation {
+	margin-left: 50px;
+}
+
 /*=====================
 		Fonts
 ========================*/

@@ -8,93 +8,87 @@
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/weather-icons.css" />
-    
     <link rel="stylesheet" href="css/styles.css" />
-
     
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
     
     <!--Begin row-->
-
+<div class="row">
 
 
 <!-- ON LOAD -->
-<div class="slider">
-<div class="row">
-<ul class="columns small-12 medium-12 slides">
 
-    <li class="cheney slide">
-    <h1 class="columns small-6 temp"> </h1>
-  
+<ul class="columns small-12 medium-12 cheney">
 
-  
-    <h3 class="columns small-6 wi-thermometer-exterior tomHi"> </h3>
-  
+    <li class="columns small-6">
+    <h1 class="temp"> </h1>
+  </li>
 
-  
-    <h3 class="columns small-6 wi-thermometer-internal tomLo"> </h3>
-   
+  <li class="columns small-6">
+    <h3 class="wi-thermometer-exterior tomHi"> </h3>
+  </li>
 
-   
-    <h3 class="columns small-6 cityAndState"> </h3>
-  
+  <li class="columns small-6">
+    <h3 class="wi-thermometer-internal tomLo"> </h3>
+   </li>
 
-  
-    <h4 class="columns small-6 medium-6">Tomorrow's is:</h4>
-      <h3 class="tomForecast columns small-6 medium-6">Forecast</h3>
+   <li class="columns small-6">
+    <h3 class="cityAndState"> </h3>
+  </li>
+
+  <li class="columns small-6 medium-6">
+    <h4>Tomorrow's is:</h4>
+      <p class="tomForecast">Forecast</p>
 </li>
-  
+  </ul>
 
-  <li class="seattle slide">
 
-    <h1 class="temp columns small-6"> </h1>
-  
 
-  
-    <h3 class="columns small-6 wi-thermometer-exterior tomHi"> </h3>
-  
+<ul class="columns small-12 medium-12 seattle">
 
-  
-    <h3 class="columns small-6 wi-thermometer-internal tomLo"> </h3>
-   
+  <li class="columns small-6">
 
-   
-    <h3 class="columns small-6 cityAndState"> </h3>
-  
+    <h1 class="temp"> </h1>
+  </li>
 
-  
-    <h4 class="columns small-6 medium-6">Tomorrow's is:</h4>
-      <h3 class="tomForecast columns small-6 medium-6">Forecast</h3>
+  <li class="columns small-6">
+    <h3 class="wi-thermometer-exterior tomHi"> </h3>
+  </li>
+
+  <li class="columns small-6">
+    <h3 class="wi-thermometer-internal tomLo"> </h3>
+   </li>
+
+   <li class="columns small-6">
+    <h3 class="cityAndState"> </h3>
+  </li>
+
+  <li class="columns small-6 medium-6">
+    <h4>Tomorrow's is:</h4>
+      <p class="tomForecast">Forecast</p>
 
   </li>
+</ul>
 
 <!-- END ON LOAD -->
 
-<!-- Add Weather -->
 
-<li class="slide">
+<!-- GEOLOCATION-->
 <div class="columns small-12 medium-12 large-12"></div>
-  <form id="getWeather">
-    <input type="text" />
-    <button>Get Weather</button>
-    <button>Add</button>
-</form>
-</div>
-<!-- END Add Weather -->
-
-
-<!-- Output Weather --> 
 <ul>
   <li class="temp"> </li>
   <li class="city"> </li>
 </ul>
 
-</li>
-<!-- END Output Weather -->
+<button class="getGeolocation">Get Geolocation</button>
+<button>Add</button>
 </div>
-</ul>
+<!-- END GEOLOCATION-->
+
+
+
 
 </div>
 <!-- End Row -->    
@@ -103,7 +97,6 @@
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/weather.js"></script>
-    <script src="js/glide.js"></script>
     <script src="js/scripts.js"></script>
 
   </body>
