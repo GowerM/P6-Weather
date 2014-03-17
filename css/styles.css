@@ -1,9 +1,18 @@
 /*=====================
-		Basics
+		Background
 =======================*/
-
+/*winds*/
+.bg0,
 .bg1,
 .bg2,
+.bg23,
+.bg24 {
+	background-image:url('../img/wind.jpeg');
+}
+
+
+
+/*Rain*/
 .bg3,
 .bg4,
 .bg5,
@@ -13,39 +22,87 @@
 .bg9,
 .bg10,
 .bg11,
-.bg12 { 
-	background: blue;
+.bg12,
+.bg35,
+.bg37,
+.bg38,
+.bg39,
+.bg40,
+.bg45,
+.bg47
+ {
+	background-image:url('../img/rain.jpeg');
+}
+
+/*Snow*/
+.bg13,
+.bg14,
+.bg15,
+.bg16,
+.bg17,
+.bg18,
+.bg41,
+.bg42,
+.bg43,
+.bg46 {
+	background-image:url('../img/snow.jpeg');
+}
+
+/*clouds*/
+.bg19,
+.bg20,
+.bg21,
+.bg22,
+.bg26,
+.bg27,
+.bg28,
+.bg29,
+.bg30,
+.bg44 {
+	background-image:url('../img/clouds.jpeg');
+}
+
+/*No clouds*/
+
+.bg31,
+.bg32,
+.bg36,
+.bg25,
+.bg33,
+.bg34 {
+	background-image:url('../img/clear.jpeg');
+}
+
+/*Error*/
+
+.bg3200 {
+	background: white;
 }
 
 
 
-.bg29,
-.bg30,
-.bg31,
-.bg32,
-.bg33,
-.bg34,
-.bg35,
-.bg36,
-.bg37,
-.bg38,
-.bg39,
-.bg40  {
-	background: orange;
-} 
+/*=====================
+		Basics
+=======================*/
 
 ul {
 	list-style: none;
 	width: 100%;
+
 }
 
 li {
 	width: 100%;
 }
 
+button {
+	margin: 0 auto;
+}
+
 /*=====================
 		Fonts
 ========================*/
 h1 {
-	font-size: 4em;
+	font-size: 7em;
+	margin-top: -5px;
 }
