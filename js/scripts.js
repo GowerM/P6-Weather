@@ -146,7 +146,7 @@ $('#getWeather input').val('');
 });
 
 
-
+$('.slider').glide();
 
   console.log('Page Loaded. Lets Do this!');
 
