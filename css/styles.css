@@ -99,7 +99,7 @@
 ul {
 	list-style: none;
 	width: 100%;
-
+	margin-top: 20px;
 }
 
 li {
@@ -121,8 +121,12 @@ button {
 ========================*/
 h1 {
 	font-size: 7em;
-	margin-top: -5px;
+	margin-top: 15px;
 }
+
+
+
+
 
 .geo {
 	font-size: 3em;
