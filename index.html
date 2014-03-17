@@ -17,10 +17,12 @@
     <!--Begin row-->
 <div class="row">
 
-
-<!-- ON LOAD -->
-
-<ul class="columns small-12 medium-12 cheney">
+<div class="orbit-container">
+  <ul data-orbit class="example-orbit orbit-slides-container">
+    <li>
+      
+      <div class="orbit-caption">
+        <ul class="columns small-12 medium-12 cheney">
 
     <li class="columns small-6">
     <h1 class="temp"> </h1>
@@ -43,12 +45,49 @@
       <p class="tomForecast">Forecast</p>
 </li>
   </ul>
+      </div>
+    </li>
+    <li>
+      
+      <div class="orbit-caption">
+        <!-- GEOLOCATION-->
+<div class="columns small-12 medium-12 large-12"></div>
+<ul>
+  <li class="geo temp"> </li>
+  <li class="geo city"> </li>
+</ul>
+
+<button class="getGeolocation">Get Geolocation</button>
+<button>Add</button>
+</div>
+<!-- END GEOLOCATION-->
+      </div>
+    </li>
+    <li>
+      
+     
+
+  <!-- Navigation Arrows -->
+  <a href="#" class="orbit-prev">Prev <span></span></a>
+  <a href="#" class="orbit-next">Next <span></span></a>
+
+  
+  <!-- Timer and Play/Pause Button -->
+  <div class="orbit-timer">
+    <span></span>
+    <div class="orbit-progress"></div>
+  </div>
+</div>
+
+<!-- Bullets -->
+<ol class="orbit-bullets">
+  <li data-orbit-slide-number="1" class="active"></li>
+  <li data-orbit-slide-number="2" ></li>
+  
+</ol>
 
 
 
-
-
-<!-- END ON LOAD -->
 
 
 <!-- GEOLOCATION-->
@@ -72,6 +111,7 @@
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.orbit.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/scripts.js"></script>
 
