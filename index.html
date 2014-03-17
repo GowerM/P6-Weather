@@ -17,34 +17,83 @@
     <!--Begin row-->
 <div class="row">
 
-<form action="">
-<input id="zipcode" type="text">
-<input type="submit">
-</form>
 
+<!-- ON LOAD -->
+<div class="columns small-12">
+<ul class="columns small-12 medium-12 cheney">
 
-<div class="columns small-6 medium-6">
+    <li class="columns small-6">
+    <h1 class="temp"> </h1>
+  </li>
+
+  <li class="columns small-6">
+    <h3 class="wi-thermometer-exterior tomHi"> </h3>
+  </li>
+
+  <li class="columns small-6">
+    <h3 class="wi-thermometer-internal tomLo"> </h3>
+   </li>
+
+   <li class="columns small-6">
+    <h3 class="cityAndState"> </h3>
+  </li>
+
+  <li class="columns small-6 medium-6">
+    <h4>Tomorrow's is:</h4>
+      <p class="tomForecast">Forecast</p>
+</li>
+  </ul>
+</div>
+
+<div class="columns small-12">
+<ul class="columns small-12 medium-12 seattle">
+
+  <li class="columns small-6">
 
     <h1 class="temp"> </h1>
-  </div>
+  </li>
 
-  <div class="columns small-6">
+  <li class="columns small-6">
     <h3 class="wi-thermometer-exterior tomHi"> </h3>
-  </div>
+  </li>
 
-  <div class="columns small-6">
+  <li class="columns small-6">
     <h3 class="wi-thermometer-internal tomLo"> </h3>
-   </div>
+   </li>
 
-   <div class="columns small-6">
+   <li class="columns small-6">
     <h3 class="cityAndState"> </h3>
-  </div>
+  </li>
 
-  <div class="columns small-6 medium-6">
+  <li class="columns small-6 medium-6">
     <h4>Tomorrow's is:</h4>
       <p class="tomForecast">Forecast</p>
 
-  </div>
+  </li>
+</ul>
+</div>
+<!-- END ON LOAD -->
+
+
+
+<!-- Add Weather -->
+<div class="columns small-12 medium-12 large-12"></div>
+  <form id="getWeather">
+    <input type="text" />
+    <button>Get Weather</button>
+    <button>Add</button>
+</form>
+</div>
+<!-- END Add Weather -->
+
+
+<!-- Output Weather --> 
+<ul>
+  <li class="temp"> </li>
+  <li class="city"> </li>
+</ul>
+<!-- END Output Weather -->
+
 </div>
 <!-- End Row -->    
 
