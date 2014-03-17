@@ -2,3 +2,43 @@
 		Basics
 =======================*/
 
+.bg1,
+.bg2,
+.bg3,
+.bg4,
+.bg5,
+.bg6,
+.bg7,
+.bg8,
+.bg9,
+.bg10,
+.bg11,
+.bg12 { 
+	background: blue;
+}
+
+
+
+.bg29,
+.bg30,
+.bg31,
+.bg32,
+.bg33,
+.bg34,
+.bg35,
+.bg36,
+.bg37,
+.bg38,
+.bg39,
+.bg40  {
+	background: orange;
+} 
+
+
+
+/*=====================
+		Fonts
+========================*/
+h1 {
+	font-size: 4em;
+}
