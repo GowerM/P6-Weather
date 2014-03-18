@@ -34,7 +34,7 @@
  {
 	background-image:url('../img/rain.jpeg');
 	width: 100%;
-	height: 100%;
+	
 }
 
 /*Snow*/
@@ -50,7 +50,7 @@
 .bg46 {
 	background-image:url('../img/snow.jpeg');
 	width: 100%;
-	height: 100%;
+	
 }
 
 /*clouds*/
@@ -59,27 +59,24 @@
 .bg21,
 .bg22,
 .bg26,
-.bg27,
 .bg28,
-.bg29,
 .bg30,
 .bg44 {
 	background-image:url('../img/clouds.jpeg');
 	width: 100%;
-	height: 100%;
+	
 }
 
 /*No clouds*/
 
-.bg31,
+
 .bg32,
 .bg36,
 .bg25,
-.bg33,
 .bg34 {
 	background-image:url('../img/clear.jpeg');
 	width: 100%;
-	height: 100%;
+	
 }
 
 /*Error*/
@@ -87,7 +84,20 @@
 .bg3200 {
 	background: white;
 	width: 100%;
-	height: 100%;
+	
+}
+
+
+/*Night Clouds*/
+.bg27,
+.bg29 {
+	background-image:url('../img/cloudsnight.jpeg');
+}
+
+/*Clear night*/
+.bg31,
+.bg33 {
+	background-image:url('../img/clearnight.jpeg');
 }
 
 
@@ -107,12 +117,10 @@ li {
 }
 
 button {
-	margin: 0 auto;
+	background: purple;
 }
 
-.getGeolocation {
-	margin-left: 20px;
-}
+
 
 
 
@@ -126,7 +134,5 @@ h1 {
 
 
 
-.geo {
-	font-size: 3em;
-}
+
 
